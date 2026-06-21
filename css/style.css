@@ -2465,7 +2465,22 @@
     display: none !important; /* 手机隐藏三角 */
 }
 
-
+/* 全部盒子开启GPU加速，解决动画阻塞图片渲染 */
+.ly-box01,.ly-box11,.ly-box12,.ly-box21,.ly-box22,.ly-box23,
+.ly-box31,.ly-box32,.ly-box82 {
+    will-change: transform;
+    transform: translateZ(0) !important;
+}
+/* 泡泡动画降速，大幅减少页面刷新次数 */
+.bg-bubbles li {
+    animation: square 50s infinite linear !important;
+    animation-duration: 50s !important;
+}
+/* 图片容器提前分配渲染层，加载更快 */
+.ly-imgbox11,.ly-imgbox21,.ly-imgbox22,.ly-imgbox31,.ly-imgbox61,.ly-imgbox81 {
+    will-change: opacity;
+    overflow: hidden !important;
+}
 
 
 
