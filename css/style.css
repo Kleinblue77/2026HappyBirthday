@@ -2268,14 +2268,14 @@
         left: 25% !important;
         top: 8% !important;
         height: auto !important;
-        min-height: 360px;
+        min-height: 270px;
     }
     .ly-box12 {
         width: 70% !important;
         left: 25% !important;
-        top: 53% !important;
+        top: 40% !important;
         height: auto !important;
-        min-height: 360px;
+        min-height: 500px;
     }
     .ly-triangle11,
     .ly-triangle12 {
@@ -2287,7 +2287,7 @@
     }
     .ly-imgbox11,
     .ly-imgbox12 {
-        height: 10% !important;
+        height: 35% !important;
         bottom: 0 !important;
     }
     .ly-txt12,
