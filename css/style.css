@@ -2370,7 +2370,7 @@
     /* 两个盒子底部图片统一高度 */
     .ly-imgbox31,
     .ly-imgbox32 {
-        height: 40% !important;
+        height: 45% !important;
         bottom: 0 !important;
     }
     /* 段落文字字号统一 */
@@ -2399,8 +2399,8 @@
         height: auto !important;
     }
     .active .ly-box32 {
-        top: 55% !important;
-        min-height: 350px;
+        top: 50% !important;
+        min-height: 380px;
         height: auto !important;
         transition-duration: 0.6s !important;
     }
@@ -2429,6 +2429,8 @@
         display: block;
         margin: 36px auto 0 !important;
         max-width: 82%;
+		transform: translateX(32px) !important; /* 正数向右，负数向左 */
+
     }
     /* 第二盒图片上边距清零，最大限度向上靠 */
     .ly-box32 img {
@@ -2438,6 +2440,7 @@
         display: block;
         margin: 0 auto 0 !important;
         max-width: 82%;
+		transform: translateX(32px) !important; /* 正数向右，负数向左 */
     }
     /* ========== 第五屏 ly-box51 ly-box52 移动端文字控制 完整版 ========== */
 .ly-box82 {
